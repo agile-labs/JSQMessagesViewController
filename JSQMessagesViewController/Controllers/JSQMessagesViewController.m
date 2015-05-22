@@ -79,7 +79,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
 - (void)jsq_adjustInputToolbarHeightConstraintByDelta:(CGFloat)dy;
 - (void)jsq_scrollComposerTextViewToBottomAnimated:(BOOL)animated;
 
-- (void)jsq_updateCollectionViewInsets;
+//- (void)jsq_updateCollectionViewInsets;
 - (void)jsq_setCollectionViewInsetsTopValue:(CGFloat)top bottomValue:(CGFloat)bottom;
 
 - (BOOL)jsq_isMenuVisible;

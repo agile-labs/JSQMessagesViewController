@@ -186,6 +186,8 @@
  */
 + (UINib *)nib;
 
+- (void)jsq_updateCollectionViewInsets;
+
 /**
  *  Creates and returns a new `JSQMessagesViewController` object.
  *
