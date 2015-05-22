@@ -79,7 +79,7 @@ JSQMessagesKeyboardControllerDelegate>
 - (void)jsq_adjustInputToolbarHeightConstraintByDelta:(CGFloat)dy;
 - (void)jsq_scrollComposerTextViewToBottomAnimated:(BOOL)animated;
 
-//- (void)jsq_updateCollectionViewInsets;
+- (void)jsq_updateCollectionViewInsets;
 - (void)jsq_setCollectionViewInsetsTopValue:(CGFloat)top bottomValue:(CGFloat)bottom;
 
 - (BOOL)jsq_isMenuVisible;
@@ -358,7 +358,6 @@ JSQMessagesKeyboardControllerDelegate>
 
 - (void)scrollToBottomAnimated:(BOOL)animated
 {
-    return;
     if ([self.collectionView numberOfSections] == 0) {
         return;
     }
